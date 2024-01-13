@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar , .container-fluid ,.navbar-brand{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 30px !important;
+    font-weight: bold !important;
+    color: rgb(228, 210, 210) !important;
+    font-size: 35px !important;
+}
+nav {
+    background: none !important;
+
+}
+.accordion-body {
+    backdrop-filter: blur(5px) !important;
+}
+.bi-book {
+    margin: 10px 10px 0 0;
+    color: gold;
+}
+.section-1 {
+    font-size: 25px !important;
+    width: 100%;
+    /* height: 1000px; */
+    /* background-image: url(../imges/pexels-wendy-van-zyl-1112048.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.ff {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.continar  {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1 {
+        color: white;
+    }
+}
+.accordion {
+    /* padding: 10px !important; */
+     backdrop-filter: blur(2px) !important;
+}
+
+body {
+    background-image: url(../imges/pexels-wendy-van-zyl-1112048.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.accordion , .accordion-item , .accordion-header , .collapsed{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0) !important;
+    color: white !important; 
+    i {
+        color: white !important;
+    }
+    button {
+        color: white !important;
+    }
+    
+}
+.accordion-button:focus{
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    color: white !important;
+    backdrop-filter: blur(5px) !important;
+}
+.accordion-button:active{
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    color: white !important;
+}

@@ -1,0 +1,12 @@
+@media (max-width:750px) {
+    .continar {
+        width: 98%;
+    }
+    .ff {
+        width: 98%;
+
+    }
+    button {
+        font-size: 22px !important;
+    }
+}
